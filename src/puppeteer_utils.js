@@ -207,7 +207,7 @@ const crawl = async (opt) => {
     executablePath: options.puppeteerExecutablePath,
     ignoreHTTPSErrors: options.puppeteerIgnoreHTTPSErrors,
     handleSIGINT: false,
-    timeout: 1000,
+    timeout: 5000,
   });
 
   /**
